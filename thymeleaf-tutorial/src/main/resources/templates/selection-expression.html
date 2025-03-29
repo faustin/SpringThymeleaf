@@ -1,0 +1,22 @@
+<html lang="eng" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Thymelaf  example</title>
+</head>
+<body>
+
+<h1>selection-expression demo</h1>
+<h2>User  details</h2>
+<div th:object="${user}">
+<p>Name :<strong th:text="*{name}"></strong></p>
+<p>Email :<strong th:text="*{email}"></strong></p>
+<p>Role  :<strong th:text="*{role}"></strong></p>
+<p>Gender :<strong th:text="*{gender}"></strong></p>
+
+
+</div>
+
+
+
+
+</body>
+</html>
